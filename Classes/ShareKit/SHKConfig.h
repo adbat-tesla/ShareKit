@@ -14,8 +14,8 @@
 // App Description
 // These values are used by any service that shows 'shared from XYZ'
 
-#define SHKMyAppName			@"My App Name"
-#define SHKMyAppURL				@"http://example.com"
+#define SHKMyAppName			AppName
+#define SHKMyAppURL				AppURL
 
 
 
@@ -50,9 +50,9 @@
 // 
 //    Your CFBundleURLSchemes entry: fb555funk
 #define SHKFacebookUseSessionProxy  NO 
-#define SHKFacebookAppID      @""
-#define SHKFacebookLocalAppID      @""
-#define SHKFacebookSessionProxyURL  @""
+#define SHKFacebookAppID      FacebookAppID
+#define SHKFacebookLocalAppID      FacebookLocalAppID
+#define SHKFacebookSessionProxyURL  FacebookSessionProxyURL
 
 // Read It Later - http://readitlaterlist.com/api/?shk
 #define SHKReadItLaterKey			@""
@@ -73,9 +73,9 @@
  2. 'Application Type' should be set to BROWSER (not client)
  3. 'Callback URL' should match whatever you enter in SHKTwitterCallbackUrl.  The callback url doesn't have to be an actual existing url.  The user will never get to it because ShareKit intercepts it before the user is redirected.  It just needs to match.
  */
-#define SHKTwitterConsumerKey		@""
-#define SHKTwitterSecret			@""
-#define SHKTwitterCallbackUrl		@"" // You need to set this if using OAuth, see note above (xAuth users can skip it)
+#define SHKTwitterConsumerKey		TwitterConsumerKey
+#define SHKTwitterSecret			TwitterSecret
+#define SHKTwitterCallbackUrl		TwitterCallbackUrl // You need to set this if using OAuth, see note above (xAuth users can skip it)
 #define SHKTwitterUseXAuth			0 // To use xAuth, set to 1
 #define SHKTwitterUsername			@"" // Enter your app's twitter account if you'd like to ask the user to follow it when logging in. (Only for xAuth)
 
